@@ -22,7 +22,7 @@ pod 'WYAScorllKit'
 
 ## Author
 
-1228506851@qq.com, 1228506851@qq.com
+WYATeam, lsh
 
 ## License
 
