@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WYAScorllKit_Example' do
+  pod 'WYAScorllKit', :path => '../'
+
+  target 'WYAScorllKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

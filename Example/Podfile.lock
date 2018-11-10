@@ -1,0 +1,16 @@
+PODS:
+  - WYAScorllKit (0.1.0)
+
+DEPENDENCIES:
+  - WYAScorllKit (from `../`)
+
+EXTERNAL SOURCES:
+  WYAScorllKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WYAScorllKit: f6cf25ab8f512cbbe3f4b3ff6b8f4536798cd166
+
+PODFILE CHECKSUM: df600006fe6d32b536ca371253c5c4aac373409e
+
+COCOAPODS: 1.5.3
