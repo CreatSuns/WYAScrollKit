@@ -22,7 +22,7 @@ pod 'WYAImageScroll'
 
 ## Author
 
-WYATeam
+WYATeam, lsh
 
 ## License
 
