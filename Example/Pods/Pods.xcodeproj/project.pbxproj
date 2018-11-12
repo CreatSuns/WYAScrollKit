@@ -7,208 +7,242 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B152FD6368760AC7EE72B36836AB84E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		1BEB945E3A70DB3487F4F7C5190B3260 /* ImageBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F777B132BC8370D3743D2E3F2BA26E /* ImageBrowserCell.m */; };
-		1EEC17EB4C4312359B2F0A5278778982 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2979B67DB9354E244AB3AAAE7AD53109 /* WYAScorllKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE29DCAEFE3ED049CFF93BFA11393DD /* WYAScorllKit-dummy.m */; };
-		363EF51FAADCDF4485477F3906DD24D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5E60BE311490707D9290865BEA2A6191 /* WYAScorllKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C815059D405F910845E8360B29631E2 /* WYAScorllKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		622A45F166234846C33CFB8F36175617 /* ImageMakeConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = AE732E0A799742D8D118F6A814E8174D /* ImageMakeConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66CBE0C76097CB17B3403A89A051E39E /* ImageBrowserCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F81D597594E6DA303325782D8EA6A6 /* ImageBrowserCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A4697150CD2E202B72BB1EC15916D2E /* HeadView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4848967CAB8C140436CB2BB890102BD7 /* HeadView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		712EA298BB832FF8B9989406DDC9F5ED /* largerImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5615D69FDD12B0F381D399D68D76D282 /* largerImageViewController.m */; };
-		7D576C4A06E49FB20E38AC263601C37D /* HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8139420728B6AE79FCA738AE2195E268 /* HeadView.m */; };
-		A0996107BB29FC51968D804DD4002789 /* Pods-WYAScorllKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9157C97D30338CD26C90D09307DCC9DC /* Pods-WYAScorllKit_Example-dummy.m */; };
-		B68233E38A85B66B2C6B91017231B4EA /* largerImageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA37D4EAC05238D5CC8A8A91BE74E18 /* largerImageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C76DE1693ED52C893DE83088CC31EE8B /* WYAScorllKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 467347AE9F18116CD753D77A20326F22 /* WYAScorllKit.bundle */; };
-		D547D0E276E22DED9925E072F752C628 /* Pods-WYAScorllKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AAB300C68B7E8795E84F6ADA1063BA /* Pods-WYAScorllKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAFBD329D6F8493A1EE7BC811FF88BAF /* Pods-WYAScorllKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D1F989F33252A6186835C21DE3FB96 /* Pods-WYAScorllKit_Tests-dummy.m */; };
-		FDA779CAD7E539917CADD6FBB89342FB /* Pods-WYAScorllKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D12724ABA5E2DEA05A269D8D25F4D1 /* Pods-WYAScorllKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		210CC7742199132C00308159 /* UIImage+BundleImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 210CC7722199132C00308159 /* UIImage+BundleImage.h */; };
+		210CC7752199132C00308159 /* UIImage+BundleImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 210CC7722199132C00308159 /* UIImage+BundleImage.h */; };
+		210CC7762199132C00308159 /* UIImage+BundleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CC7732199132C00308159 /* UIImage+BundleImage.m */; };
+		210CC7772199132C00308159 /* UIImage+BundleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 210CC7732199132C00308159 /* UIImage+BundleImage.m */; };
+		34946B4C2027F6A1095D2E8796FA7538 /* HeadView.h in Headers */ = {isa = PBXBuildFile; fileRef = E7F4898EBD44DBA81455664B8767AF49 /* HeadView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F630C28B3891C4DFAC1BCDE3532DCC1 /* Pods-WYAImageScroll_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0114512C214163342A773D9A6F3C43 /* Pods-WYAImageScroll_Tests-dummy.m */; };
+		4C2927950EDA0B898CD8852E85385A78 /* Pods-WYAImageScroll_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F65521D5CB74E424DB598FCE47CDA233 /* Pods-WYAImageScroll_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51B5D1A8F04EF58FD596B8CC5839CCC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		60EFE5C9967050E8C7D2A8A496EB87AC /* WYAImageScroll.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 857E92A8E6A701B4241DB54DC74319FE /* WYAImageScroll.bundle */; };
+		6963CA21D63F6AA8FAB6EB1DEF9AAF6D /* WYAImageScroll-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B617C417FCC47AB99EA6A26530C7D7 /* WYAImageScroll-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E576B8DFE5735F2CF58B0FF5F3FA19F /* WYAImageScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 175EA326416EB2540EF67974BE226847 /* WYAImageScrollViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F55C2CB803D54A45F9E8275F9F23980 /* ImageMakeConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A1DC15D5BFC6800036766F9057738AA /* ImageMakeConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8649B36E1DD34299C3125648EC301F27 /* Pods-WYAImageScroll_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59078BE830EF3606B68FC3A0A65E29B2 /* Pods-WYAImageScroll_Example-dummy.m */; };
+		8B967304D16CD66F43866A2A92099150 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8D9B9C4FD30E3022749C024FF0643599 /* WYAImageScroll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF044E77B174F1DBF72190FD8AA73E6F /* WYAImageScroll-dummy.m */; };
+		A42A5B9BFAE2B698DEAD44DCC07B8822 /* WYAImageScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A10EA4E8DB55373E678398CA1E0B0C98 /* WYAImageScrollViewController.m */; };
+		C3E6FADD135D8BA26BC85CF284E5E2E5 /* Pods-WYAImageScroll_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4986B4DBA5436519E5D7A12187C523 /* Pods-WYAImageScroll_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF522E4CEB82B2FB04DAAF478FD4EC6 /* WYAImageScroll.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22FDF06E682DBC3119301DF7F84A15F /* WYAImageScroll.xcassets */; };
+		D1380A000E5855DCA7CB4C970636CD89 /* ImageBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B75B40C4B245FEA41D7A384911C824 /* ImageBrowserCell.m */; };
+		DB93DEB052C3D4CA569271F3A297B96B /* ImageBrowserCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DA02DD098764BDA6BBD3D991DC20EC00 /* ImageBrowserCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED043C73F48311C0633E62424BD535A8 /* HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0FEB6E89A96FB80A9097FCDE16EB49 /* HeadView.m */; };
+		FC7EF52667E63303935FB29C37ACE94D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2CB8F1D00B72CE5A92CBB081D80A497E /* PBXContainerItemProxy */ = {
+		2E067B95DEA1D84D3B8CCAD312AAE350 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6FBDE82DF7A3FE24D5A7420D792CCE0B;
-			remoteInfo = WYAScorllKit;
+			remoteGlobalIDString = FAFE591F1C4D7344A83C09F5D5149712;
+			remoteInfo = WYAImageScroll;
 		};
-		7D07F76E2AF21DC898631DB30E2B8CE0 /* PBXContainerItemProxy */ = {
+		5B731951F581B79EE6DAEDBF43419B76 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0DD5E35D619BC4E41D200320624C8D20;
-			remoteInfo = "Pods-WYAScorllKit_Example";
+			remoteGlobalIDString = 1DED603A5990821C43ACF377077F1D4E;
+			remoteInfo = "WYAImageScroll-WYAImageScroll";
 		};
-		8FE549CBE752F0EA68408E273D7BA4F6 /* PBXContainerItemProxy */ = {
+		88DE9FD199D93ABDA82031A3B5C87324 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C3E6F3E2005D19E9AE19CC45DE04BE3B;
-			remoteInfo = "WYAScorllKit-WYAScorllKit";
+			remoteGlobalIDString = 07B4A239BE6F796EE38B12E72B90998F;
+			remoteInfo = "Pods-WYAImageScroll_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		043E9C9B007FD2B5858CE057F399D8EF /* Pods-WYAScorllKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYAScorllKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		08C4B24FEA7F53BCF4A19293748CFB98 /* WYAScorllKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WYAScorllKit.framework; path = WYAScorllKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C815059D405F910845E8360B29631E2 /* WYAScorllKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYAScorllKit-umbrella.h"; sourceTree = "<group>"; };
-		1FE29DCAEFE3ED049CFF93BFA11393DD /* WYAScorllKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYAScorllKit-dummy.m"; sourceTree = "<group>"; };
-		204A358AB19A34C335EEF84EA41056C7 /* Pods_WYAScorllKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WYAScorllKit_Tests.framework; path = "Pods-WYAScorllKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		29AAB300C68B7E8795E84F6ADA1063BA /* Pods-WYAScorllKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYAScorllKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3EB74F56E4C529509D232BE038AE1801 /* Pods-WYAScorllKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAScorllKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		40F81D597594E6DA303325782D8EA6A6 /* ImageBrowserCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ImageBrowserCell.h; path = WYAScorllKit/Classes/ImageBrowserCell.h; sourceTree = "<group>"; };
-		467347AE9F18116CD753D77A20326F22 /* WYAScorllKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WYAScorllKit.bundle; path = "WYAScorllKit-WYAScorllKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4848967CAB8C140436CB2BB890102BD7 /* HeadView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeadView.h; path = WYAScorllKit/Classes/HeadView.h; sourceTree = "<group>"; };
-		5615D69FDD12B0F381D399D68D76D282 /* largerImageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = largerImageViewController.m; path = WYAScorllKit/Classes/largerImageViewController.m; sourceTree = "<group>"; };
-		64F777B132BC8370D3743D2E3F2BA26E /* ImageBrowserCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ImageBrowserCell.m; path = WYAScorllKit/Classes/ImageBrowserCell.m; sourceTree = "<group>"; };
+		04627528FAD9CE759C2B57D0385EAD80 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10CF36BEE6CC8598D2946B417155CFA2 /* Pods-WYAImageScroll_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYAImageScroll_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12A3C22EFDF1ADC40826810F98E594A4 /* Pods-WYAImageScroll_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYAImageScroll_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		175EA326416EB2540EF67974BE226847 /* WYAImageScrollViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYAImageScrollViewController.h; path = WYAImageScroll/Classes/WYAImageScrollViewController.h; sourceTree = "<group>"; };
+		210CC7722199132C00308159 /* UIImage+BundleImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIImage+BundleImage.h"; path = "WYAImageScroll/Classes/UIImage+BundleImage.h"; sourceTree = "<group>"; };
+		210CC7732199132C00308159 /* UIImage+BundleImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIImage+BundleImage.m"; path = "WYAImageScroll/Classes/UIImage+BundleImage.m"; sourceTree = "<group>"; };
+		2FB0825F2AD8B6C70DE520F2953D8142 /* Pods_WYAImageScroll_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYAImageScroll_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5A5CB8B588D48D09D1DD17EE4295BB /* WYAImageScroll.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WYAImageScroll.modulemap; sourceTree = "<group>"; };
+		3C1D082EF84009276AB95D48B00DD17A /* Pods-WYAImageScroll_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAImageScroll_Tests-resources.sh"; sourceTree = "<group>"; };
+		416E3D0948102706BB8F7B37FE1B381A /* Pods-WYAImageScroll_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAImageScroll_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		535F74E4BD3ABDBE78ACBC50BC389931 /* Pods-WYAImageScroll_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYAImageScroll_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		59078BE830EF3606B68FC3A0A65E29B2 /* Pods-WYAImageScroll_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYAImageScroll_Example-dummy.m"; sourceTree = "<group>"; };
+		5F0FEB6E89A96FB80A9097FCDE16EB49 /* HeadView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeadView.m; path = WYAImageScroll/Classes/HeadView.m; sourceTree = "<group>"; };
+		6563A281BCE0C01B810C287D5395A3BB /* Pods-WYAImageScroll_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAImageScroll_Example-resources.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		66D12724ABA5E2DEA05A269D8D25F4D1 /* Pods-WYAScorllKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYAScorllKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		8139420728B6AE79FCA738AE2195E268 /* HeadView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HeadView.m; path = WYAScorllKit/Classes/HeadView.m; sourceTree = "<group>"; };
-		8C5F8C6895DD61A69981A9B8B49DCD21 /* WYAScorllKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WYAScorllKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9157C97D30338CD26C90D09307DCC9DC /* Pods-WYAScorllKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYAScorllKit_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		99E1ABDCF3A8E2F41CCB592BB1BDBFF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A330E71488919C5A2C15D2D10B12B22 /* Pods-WYAScorllKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAScorllKit_Tests-resources.sh"; sourceTree = "<group>"; };
-		9FE85DE483056A6AE402907F2ED7FBF2 /* Pods_WYAScorllKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WYAScorllKit_Example.framework; path = "Pods-WYAScorllKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A184BC5BA6A95EE5CEDC3C6ADB137EAF /* WYAScorllKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYAScorllKit.xcconfig; sourceTree = "<group>"; };
-		AE732E0A799742D8D118F6A814E8174D /* ImageMakeConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ImageMakeConfig.h; path = WYAScorllKit/Classes/ImageMakeConfig.h; sourceTree = "<group>"; };
-		B8587D06DB9CE5F72AF058ACC72FFF06 /* ResourceBundle-WYAScorllKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WYAScorllKit-Info.plist"; sourceTree = "<group>"; };
-		BBA37D4EAC05238D5CC8A8A91BE74E18 /* largerImageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = largerImageViewController.h; path = WYAScorllKit/Classes/largerImageViewController.h; sourceTree = "<group>"; };
-		C06F66D7E9AD184444B8299EC03023B6 /* Pods-WYAScorllKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAScorllKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CD967FF8416FA66B9F37E50F196F32A3 /* WYAScorllKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WYAScorllKit.modulemap; sourceTree = "<group>"; };
-		CF412CB192C3D3A21AB6A0AA6646D508 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D356E2E675BF267C74291B5E0052BD85 /* Pods-WYAScorllKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAScorllKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D4D1F989F33252A6186835C21DE3FB96 /* Pods-WYAScorllKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYAScorllKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		D9D432040B3B5F8C74835F36817E02A2 /* Pods-WYAScorllKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYAScorllKit_Example.modulemap"; sourceTree = "<group>"; };
-		DC6C111CCD90CD2D8A2864473D558FBE /* Pods-WYAScorllKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYAScorllKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DD0CE9C20C12A7BB1A43E0D628570BCD /* Pods-WYAScorllKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAScorllKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DDF591F8BDAC9357AA4533C58A9809C9 /* Pods-WYAScorllKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAScorllKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		DFA7E8F00EE608138C2BB3C3381B6E3D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E6969B48D6C84D26B20F29B6C604C3C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		EB7EDAA31B19EA7F7A947367A766EC81 /* Pods-WYAScorllKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYAScorllKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EC10B6A7106F8A0922BBE8D9D611A2DA /* Pods-WYAScorllKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAScorllKit_Example-resources.sh"; sourceTree = "<group>"; };
-		F035F9C1EEC0AF7E42FBB5B493494AD2 /* WYAScorllKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYAScorllKit-prefix.pch"; sourceTree = "<group>"; };
-		F319715C10C5777043699FE122678CF0 /* Pods-WYAScorllKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAScorllKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F8D7CA43ACDB166A1BCFAD08B1936192 /* Pods-WYAScorllKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYAScorllKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FBAA98F5758A91F57518A3B88F19E1DA /* Pods-WYAScorllKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYAScorllKit_Tests.modulemap"; sourceTree = "<group>"; };
+		6C1E11E279BB93C47BA005BF3457DBC0 /* Pods-WYAImageScroll_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAImageScroll_Example-frameworks.sh"; sourceTree = "<group>"; };
+		73B75B40C4B245FEA41D7A384911C824 /* ImageBrowserCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ImageBrowserCell.m; path = WYAImageScroll/Classes/ImageBrowserCell.m; sourceTree = "<group>"; };
+		747AB8730233E577CC97DDFA132123EB /* Pods-WYAImageScroll_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYAImageScroll_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7493DB45CAF65AA7238638F2A2D48CC3 /* WYAImageScroll.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = WYAImageScroll.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		74A679ACA4008A946E22831D4E9B45FD /* Pods-WYAImageScroll_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYAImageScroll_Tests.modulemap"; sourceTree = "<group>"; };
+		76B617C417FCC47AB99EA6A26530C7D7 /* WYAImageScroll-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYAImageScroll-umbrella.h"; sourceTree = "<group>"; };
+		78C25BA4D472CB18A20CAD17042A3D4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0114512C214163342A773D9A6F3C43 /* Pods-WYAImageScroll_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYAImageScroll_Tests-dummy.m"; sourceTree = "<group>"; };
+		7A1DC15D5BFC6800036766F9057738AA /* ImageMakeConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ImageMakeConfig.h; path = WYAImageScroll/Classes/ImageMakeConfig.h; sourceTree = "<group>"; };
+		857E92A8E6A701B4241DB54DC74319FE /* WYAImageScroll.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYAImageScroll.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6BCA79EE215DDA804969FF48744C49 /* WYAImageScroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WYAImageScroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95D9410EF8A142147AC5C6415E313E96 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A10EA4E8DB55373E678398CA1E0B0C98 /* WYAImageScrollViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYAImageScrollViewController.m; path = WYAImageScroll/Classes/WYAImageScrollViewController.m; sourceTree = "<group>"; };
+		A24AE1623FA20F223BBA8155FC27277F /* ResourceBundle-WYAImageScroll-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WYAImageScroll-Info.plist"; sourceTree = "<group>"; };
+		AEBFB9B742C68D1A8A651C7C6894BBF3 /* Pods-WYAImageScroll_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAImageScroll_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B587209AE393A573ED8414582F9DC39F /* WYAImageScroll-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYAImageScroll-prefix.pch"; sourceTree = "<group>"; };
+		C10C6FEB4DE6BDFB74D6B1E50A708B2E /* Pods-WYAImageScroll_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAImageScroll_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C987A11AC314132D4F213192C74B5025 /* Pods-WYAImageScroll_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYAImageScroll_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CE070363D7E1B9899F51108A37B7EE4E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DA02DD098764BDA6BBD3D991DC20EC00 /* ImageBrowserCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ImageBrowserCell.h; path = WYAImageScroll/Classes/ImageBrowserCell.h; sourceTree = "<group>"; };
+		DACA7E7BD4D9C1D8FEEB59317474B838 /* WYAImageScroll.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYAImageScroll.xcconfig; sourceTree = "<group>"; };
+		E22FDF06E682DBC3119301DF7F84A15F /* WYAImageScroll.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = WYAImageScroll.xcassets; path = WYAImageScroll/Assets/WYAImageScroll.xcassets; sourceTree = "<group>"; };
+		E7F4898EBD44DBA81455664B8767AF49 /* HeadView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeadView.h; path = WYAImageScroll/Classes/HeadView.h; sourceTree = "<group>"; };
+		E8715DB4449311FFF7712E98F8FE92BC /* Pods-WYAImageScroll_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYAImageScroll_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EA11D25731B8564E37F5BD3D5464B2F7 /* Pods_WYAImageScroll_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYAImageScroll_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFE979B0DBF862EE6D852BF7FE6998A /* Pods-WYAImageScroll_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYAImageScroll_Example.modulemap"; sourceTree = "<group>"; };
+		F65521D5CB74E424DB598FCE47CDA233 /* Pods-WYAImageScroll_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYAImageScroll_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FD4986B4DBA5436519E5D7A12187C523 /* Pods-WYAImageScroll_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYAImageScroll_Example-umbrella.h"; sourceTree = "<group>"; };
+		FF044E77B174F1DBF72190FD8AA73E6F /* WYAImageScroll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYAImageScroll-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		48EC58B1A623F7E2F713A07E0540F52C /* Frameworks */ = {
+		0E40DA7359EB5D1331D16C803EC54E7B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EEC17EB4C4312359B2F0A5278778982 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61645D5B525C3CC928200EDE33549C71 /* Frameworks */ = {
+		48B73592BB6FB5A910FF60DBE3DA0A02 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				363EF51FAADCDF4485477F3906DD24D7 /* Foundation.framework in Frameworks */,
+				8B967304D16CD66F43866A2A92099150 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F07A0AA7272AABBE3194FFAAAB7098E /* Frameworks */ = {
+		911FADEB7DCF100AAEA883D9CF2889E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B152FD6368760AC7EE72B36836AB84E /* Foundation.framework in Frameworks */,
+				FC7EF52667E63303935FB29C37ACE94D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA2854CB4808CC8DDED5B6A00E19D80C /* Frameworks */ = {
+		E6C63C5937359229CC0066A9172344AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51B5D1A8F04EF58FD596B8CC5839CCC7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3640DF8DF03B576626193C71D06CDCC6 /* Development Pods */ = {
+		2522D0290D2FA6A418916A173B6A8138 /* WYAImageScroll */ = {
 			isa = PBXGroup;
 			children = (
-				F70A5061CF4C8611F09B482F4630E164 /* WYAScorllKit */,
+				E7F4898EBD44DBA81455664B8767AF49 /* HeadView.h */,
+				5F0FEB6E89A96FB80A9097FCDE16EB49 /* HeadView.m */,
+				DA02DD098764BDA6BBD3D991DC20EC00 /* ImageBrowserCell.h */,
+				73B75B40C4B245FEA41D7A384911C824 /* ImageBrowserCell.m */,
+				7A1DC15D5BFC6800036766F9057738AA /* ImageMakeConfig.h */,
+				175EA326416EB2540EF67974BE226847 /* WYAImageScrollViewController.h */,
+				A10EA4E8DB55373E678398CA1E0B0C98 /* WYAImageScrollViewController.m */,
+				210CC7722199132C00308159 /* UIImage+BundleImage.h */,
+				210CC7732199132C00308159 /* UIImage+BundleImage.m */,
+				578117B2BDF905C611509E631603273A /* Pod */,
+				3255107E700EA642F98F6715DDD6593C /* Resources */,
+				782923E1268FB5DAEEA92AFFD381DBF5 /* Support Files */,
+			);
+			name = WYAImageScroll;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3255107E700EA642F98F6715DDD6593C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E22FDF06E682DBC3119301DF7F84A15F /* WYAImageScroll.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3D37DE93FCCFA63B1834CBE703E58182 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2522D0290D2FA6A418916A173B6A8138 /* WYAImageScroll */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		3999DD4DAE46D22336C5BDFF9F323B85 /* Targets Support Files */ = {
+		3DB71FE7C51F486458BFDBC215FCF554 /* Pods-WYAImageScroll_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				E5E7CADDB7756DAF0457D588CFE62709 /* Pods-WYAScorllKit_Example */,
-				69F8D183043CB6EEF043CB0AF5045C6A /* Pods-WYAScorllKit_Tests */,
+				78C25BA4D472CB18A20CAD17042A3D4E /* Info.plist */,
+				74A679ACA4008A946E22831D4E9B45FD /* Pods-WYAImageScroll_Tests.modulemap */,
+				747AB8730233E577CC97DDFA132123EB /* Pods-WYAImageScroll_Tests-acknowledgements.markdown */,
+				12A3C22EFDF1ADC40826810F98E594A4 /* Pods-WYAImageScroll_Tests-acknowledgements.plist */,
+				7A0114512C214163342A773D9A6F3C43 /* Pods-WYAImageScroll_Tests-dummy.m */,
+				E8715DB4449311FFF7712E98F8FE92BC /* Pods-WYAImageScroll_Tests-frameworks.sh */,
+				3C1D082EF84009276AB95D48B00DD17A /* Pods-WYAImageScroll_Tests-resources.sh */,
+				F65521D5CB74E424DB598FCE47CDA233 /* Pods-WYAImageScroll_Tests-umbrella.h */,
+				C10C6FEB4DE6BDFB74D6B1E50A708B2E /* Pods-WYAImageScroll_Tests.debug.xcconfig */,
+				AEBFB9B742C68D1A8A651C7C6894BBF3 /* Pods-WYAImageScroll_Tests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-WYAImageScroll_Tests";
+			path = "Target Support Files/Pods-WYAImageScroll_Tests";
 			sourceTree = "<group>";
 		};
-		69F8D183043CB6EEF043CB0AF5045C6A /* Pods-WYAScorllKit_Tests */ = {
+		578117B2BDF905C611509E631603273A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				99E1ABDCF3A8E2F41CCB592BB1BDBFF3 /* Info.plist */,
-				FBAA98F5758A91F57518A3B88F19E1DA /* Pods-WYAScorllKit_Tests.modulemap */,
-				EB7EDAA31B19EA7F7A947367A766EC81 /* Pods-WYAScorllKit_Tests-acknowledgements.markdown */,
-				F8D7CA43ACDB166A1BCFAD08B1936192 /* Pods-WYAScorllKit_Tests-acknowledgements.plist */,
-				D4D1F989F33252A6186835C21DE3FB96 /* Pods-WYAScorllKit_Tests-dummy.m */,
-				DDF591F8BDAC9357AA4533C58A9809C9 /* Pods-WYAScorllKit_Tests-frameworks.sh */,
-				9A330E71488919C5A2C15D2D10B12B22 /* Pods-WYAScorllKit_Tests-resources.sh */,
-				29AAB300C68B7E8795E84F6ADA1063BA /* Pods-WYAScorllKit_Tests-umbrella.h */,
-				DD0CE9C20C12A7BB1A43E0D628570BCD /* Pods-WYAScorllKit_Tests.debug.xcconfig */,
-				F319715C10C5777043699FE122678CF0 /* Pods-WYAScorllKit_Tests.release.xcconfig */,
+				CE070363D7E1B9899F51108A37B7EE4E /* LICENSE */,
+				95D9410EF8A142147AC5C6415E313E96 /* README.md */,
+				7493DB45CAF65AA7238638F2A2D48CC3 /* WYAImageScroll.podspec */,
 			);
-			name = "Pods-WYAScorllKit_Tests";
-			path = "Target Support Files/Pods-WYAScorllKit_Tests";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		782923E1268FB5DAEEA92AFFD381DBF5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A24AE1623FA20F223BBA8155FC27277F /* ResourceBundle-WYAImageScroll-Info.plist */,
+				3A5A5CB8B588D48D09D1DD17EE4295BB /* WYAImageScroll.modulemap */,
+				DACA7E7BD4D9C1D8FEEB59317474B838 /* WYAImageScroll.xcconfig */,
+				FF044E77B174F1DBF72190FD8AA73E6F /* WYAImageScroll-dummy.m */,
+				B587209AE393A573ED8414582F9DC39F /* WYAImageScroll-prefix.pch */,
+				76B617C417FCC47AB99EA6A26530C7D7 /* WYAImageScroll-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WYAImageScroll";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3640DF8DF03B576626193C71D06CDCC6 /* Development Pods */,
+				3D37DE93FCCFA63B1834CBE703E58182 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				A6E51D7CD8F484CAB3C567F9EB874EA6 /* Products */,
-				3999DD4DAE46D22336C5BDFF9F323B85 /* Targets Support Files */,
+				E51D8C95BF6DBC622A367520F6850448 /* Products */,
+				CDA60DF9E308F74E3B10C9154258D7F9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A0BB2993AA3294EB3477A7D63BFF478C /* Support Files */ = {
+		97D6B69A5E59A37B6117F488B60A6C34 /* Pods-WYAImageScroll_Example */ = {
 			isa = PBXGroup;
 			children = (
-				B8587D06DB9CE5F72AF058ACC72FFF06 /* ResourceBundle-WYAScorllKit-Info.plist */,
-				CD967FF8416FA66B9F37E50F196F32A3 /* WYAScorllKit.modulemap */,
-				A184BC5BA6A95EE5CEDC3C6ADB137EAF /* WYAScorllKit.xcconfig */,
-				1FE29DCAEFE3ED049CFF93BFA11393DD /* WYAScorllKit-dummy.m */,
-				F035F9C1EEC0AF7E42FBB5B493494AD2 /* WYAScorllKit-prefix.pch */,
-				1C815059D405F910845E8360B29631E2 /* WYAScorllKit-umbrella.h */,
+				04627528FAD9CE759C2B57D0385EAD80 /* Info.plist */,
+				EEFE979B0DBF862EE6D852BF7FE6998A /* Pods-WYAImageScroll_Example.modulemap */,
+				10CF36BEE6CC8598D2946B417155CFA2 /* Pods-WYAImageScroll_Example-acknowledgements.markdown */,
+				535F74E4BD3ABDBE78ACBC50BC389931 /* Pods-WYAImageScroll_Example-acknowledgements.plist */,
+				59078BE830EF3606B68FC3A0A65E29B2 /* Pods-WYAImageScroll_Example-dummy.m */,
+				6C1E11E279BB93C47BA005BF3457DBC0 /* Pods-WYAImageScroll_Example-frameworks.sh */,
+				6563A281BCE0C01B810C287D5395A3BB /* Pods-WYAImageScroll_Example-resources.sh */,
+				FD4986B4DBA5436519E5D7A12187C523 /* Pods-WYAImageScroll_Example-umbrella.h */,
+				416E3D0948102706BB8F7B37FE1B381A /* Pods-WYAImageScroll_Example.debug.xcconfig */,
+				C987A11AC314132D4F213192C74B5025 /* Pods-WYAImageScroll_Example.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WYAScorllKit";
-			sourceTree = "<group>";
-		};
-		A46C701BD597E88A331C508EAFD252E2 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CF412CB192C3D3A21AB6A0AA6646D508 /* LICENSE */,
-				E6969B48D6C84D26B20F29B6C604C3C6 /* README.md */,
-				8C5F8C6895DD61A69981A9B8B49DCD21 /* WYAScorllKit.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		A6E51D7CD8F484CAB3C567F9EB874EA6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9FE85DE483056A6AE402907F2ED7FBF2 /* Pods_WYAScorllKit_Example.framework */,
-				204A358AB19A34C335EEF84EA41056C7 /* Pods_WYAScorllKit_Tests.framework */,
-				467347AE9F18116CD753D77A20326F22 /* WYAScorllKit.bundle */,
-				08C4B24FEA7F53BCF4A19293748CFB98 /* WYAScorllKit.framework */,
-			);
-			name = Products;
+			name = "Pods-WYAImageScroll_Example";
+			path = "Target Support Files/Pods-WYAImageScroll_Example";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -219,6 +253,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CDA60DF9E308F74E3B10C9154258D7F9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97D6B69A5E59A37B6117F488B60A6C34 /* Pods-WYAImageScroll_Example */,
+				3DB71FE7C51F486458BFDBC215FCF554 /* Pods-WYAImageScroll_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -227,146 +270,124 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E5E7CADDB7756DAF0457D588CFE62709 /* Pods-WYAScorllKit_Example */ = {
+		E51D8C95BF6DBC622A367520F6850448 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DFA7E8F00EE608138C2BB3C3381B6E3D /* Info.plist */,
-				D9D432040B3B5F8C74835F36817E02A2 /* Pods-WYAScorllKit_Example.modulemap */,
-				DC6C111CCD90CD2D8A2864473D558FBE /* Pods-WYAScorllKit_Example-acknowledgements.markdown */,
-				043E9C9B007FD2B5858CE057F399D8EF /* Pods-WYAScorllKit_Example-acknowledgements.plist */,
-				9157C97D30338CD26C90D09307DCC9DC /* Pods-WYAScorllKit_Example-dummy.m */,
-				C06F66D7E9AD184444B8299EC03023B6 /* Pods-WYAScorllKit_Example-frameworks.sh */,
-				EC10B6A7106F8A0922BBE8D9D611A2DA /* Pods-WYAScorllKit_Example-resources.sh */,
-				66D12724ABA5E2DEA05A269D8D25F4D1 /* Pods-WYAScorllKit_Example-umbrella.h */,
-				D356E2E675BF267C74291B5E0052BD85 /* Pods-WYAScorllKit_Example.debug.xcconfig */,
-				3EB74F56E4C529509D232BE038AE1801 /* Pods-WYAScorllKit_Example.release.xcconfig */,
+				EA11D25731B8564E37F5BD3D5464B2F7 /* Pods_WYAImageScroll_Example.framework */,
+				2FB0825F2AD8B6C70DE520F2953D8142 /* Pods_WYAImageScroll_Tests.framework */,
+				857E92A8E6A701B4241DB54DC74319FE /* WYAImageScroll.bundle */,
+				8A6BCA79EE215DDA804969FF48744C49 /* WYAImageScroll.framework */,
 			);
-			name = "Pods-WYAScorllKit_Example";
-			path = "Target Support Files/Pods-WYAScorllKit_Example";
-			sourceTree = "<group>";
-		};
-		F70A5061CF4C8611F09B482F4630E164 /* WYAScorllKit */ = {
-			isa = PBXGroup;
-			children = (
-				4848967CAB8C140436CB2BB890102BD7 /* HeadView.h */,
-				8139420728B6AE79FCA738AE2195E268 /* HeadView.m */,
-				40F81D597594E6DA303325782D8EA6A6 /* ImageBrowserCell.h */,
-				64F777B132BC8370D3743D2E3F2BA26E /* ImageBrowserCell.m */,
-				AE732E0A799742D8D118F6A814E8174D /* ImageMakeConfig.h */,
-				BBA37D4EAC05238D5CC8A8A91BE74E18 /* largerImageViewController.h */,
-				5615D69FDD12B0F381D399D68D76D282 /* largerImageViewController.m */,
-				A46C701BD597E88A331C508EAFD252E2 /* Pod */,
-				A0BB2993AA3294EB3477A7D63BFF478C /* Support Files */,
-			);
-			name = WYAScorllKit;
-			path = ../..;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AF2CAB2134155C59D54AEB6E7BEDEA58 /* Headers */ = {
+		17A34BC9A46CA56D1316C124125E77BB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A4697150CD2E202B72BB1EC15916D2E /* HeadView.h in Headers */,
-				66CBE0C76097CB17B3403A89A051E39E /* ImageBrowserCell.h in Headers */,
-				622A45F166234846C33CFB8F36175617 /* ImageMakeConfig.h in Headers */,
-				B68233E38A85B66B2C6B91017231B4EA /* largerImageViewController.h in Headers */,
-				5E60BE311490707D9290865BEA2A6191 /* WYAScorllKit-umbrella.h in Headers */,
+				210CC7742199132C00308159 /* UIImage+BundleImage.h in Headers */,
+				C3E6FADD135D8BA26BC85CF284E5E2E5 /* Pods-WYAImageScroll_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3EAA46AFF5F5C1654FE3A5EF33BD937 /* Headers */ = {
+		BE4D41AD59AB11C07C01804FEE1AAEAC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDA779CAD7E539917CADD6FBB89342FB /* Pods-WYAScorllKit_Example-umbrella.h in Headers */,
+				34946B4C2027F6A1095D2E8796FA7538 /* HeadView.h in Headers */,
+				DB93DEB052C3D4CA569271F3A297B96B /* ImageBrowserCell.h in Headers */,
+				210CC7752199132C00308159 /* UIImage+BundleImage.h in Headers */,
+				7F55C2CB803D54A45F9E8275F9F23980 /* ImageMakeConfig.h in Headers */,
+				7E576B8DFE5735F2CF58B0FF5F3FA19F /* WYAImageScrollViewController.h in Headers */,
+				6963CA21D63F6AA8FAB6EB1DEF9AAF6D /* WYAImageScroll-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C34EC0075E36A8E738D47F13613612EA /* Headers */ = {
+		FEFBF074732F907D7592C3C0DB1E9BB0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D547D0E276E22DED9925E072F752C628 /* Pods-WYAScorllKit_Tests-umbrella.h in Headers */,
+				4C2927950EDA0B898CD8852E85385A78 /* Pods-WYAImageScroll_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		099F432D2D93C95E78B590491D73D2A1 /* Pods-WYAScorllKit_Tests */ = {
+		07B4A239BE6F796EE38B12E72B90998F /* Pods-WYAImageScroll_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DFD14BD1182E8170D99D1C45257D5C5 /* Build configuration list for PBXNativeTarget "Pods-WYAScorllKit_Tests" */;
+			buildConfigurationList = E415A55607E26F12D9D5FF5B91940AAF /* Build configuration list for PBXNativeTarget "Pods-WYAImageScroll_Example" */;
 			buildPhases = (
-				3E52F69135DC26CBE1D498D1771B6BD1 /* Sources */,
-				48EC58B1A623F7E2F713A07E0540F52C /* Frameworks */,
-				C34EC0075E36A8E738D47F13613612EA /* Headers */,
+				73099C8EE923782F7FF8F2BFCD5EEFAE /* Sources */,
+				911FADEB7DCF100AAEA883D9CF2889E4 /* Frameworks */,
+				17A34BC9A46CA56D1316C124125E77BB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7BA29536B7CBFF80730ADA31DE3B63C8 /* PBXTargetDependency */,
+				A0C14A33A92DE545D466219135A9B83C /* PBXTargetDependency */,
 			);
-			name = "Pods-WYAScorllKit_Tests";
-			productName = "Pods-WYAScorllKit_Tests";
-			productReference = 204A358AB19A34C335EEF84EA41056C7 /* Pods_WYAScorllKit_Tests.framework */;
+			name = "Pods-WYAImageScroll_Example";
+			productName = "Pods-WYAImageScroll_Example";
+			productReference = EA11D25731B8564E37F5BD3D5464B2F7 /* Pods_WYAImageScroll_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0DD5E35D619BC4E41D200320624C8D20 /* Pods-WYAScorllKit_Example */ = {
+		1DED603A5990821C43ACF377077F1D4E /* WYAImageScroll-WYAImageScroll */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41F28057DB388C333D5F16A7CB9385AC /* Build configuration list for PBXNativeTarget "Pods-WYAScorllKit_Example" */;
+			buildConfigurationList = 1177E60D04C7B12904A9541FD119C2F7 /* Build configuration list for PBXNativeTarget "WYAImageScroll-WYAImageScroll" */;
 			buildPhases = (
-				A33A088AD73DC17E9846BBA0EE87091A /* Sources */,
-				61645D5B525C3CC928200EDE33549C71 /* Frameworks */,
-				B3EAA46AFF5F5C1654FE3A5EF33BD937 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1210913549CF2669402333D651D103CD /* PBXTargetDependency */,
-			);
-			name = "Pods-WYAScorllKit_Example";
-			productName = "Pods-WYAScorllKit_Example";
-			productReference = 9FE85DE483056A6AE402907F2ED7FBF2 /* Pods_WYAScorllKit_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6FBDE82DF7A3FE24D5A7420D792CCE0B /* WYAScorllKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B960A245FB3549B692FDA315D2230D4A /* Build configuration list for PBXNativeTarget "WYAScorllKit" */;
-			buildPhases = (
-				7B68CD756E33B04F0C7F745A632BA9DA /* Sources */,
-				7F07A0AA7272AABBE3194FFAAAB7098E /* Frameworks */,
-				1253400E829F5601BA43086BC2D71641 /* Resources */,
-				AF2CAB2134155C59D54AEB6E7BEDEA58 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3F2276EB6FA15DFF2A250573449EFF7B /* PBXTargetDependency */,
-			);
-			name = WYAScorllKit;
-			productName = WYAScorllKit;
-			productReference = 08C4B24FEA7F53BCF4A19293748CFB98 /* WYAScorllKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C3E6F3E2005D19E9AE19CC45DE04BE3B /* WYAScorllKit-WYAScorllKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D3DF54E01FD07715C04CBC7F74242A6D /* Build configuration list for PBXNativeTarget "WYAScorllKit-WYAScorllKit" */;
-			buildPhases = (
-				77ADD1E059602B7A373A460ECBC1568F /* Sources */,
-				BA2854CB4808CC8DDED5B6A00E19D80C /* Frameworks */,
-				C64B523D1FE96287D35C7E81A58094BF /* Resources */,
+				6FE53CD134030298110D4EB391C66536 /* Sources */,
+				0E40DA7359EB5D1331D16C803EC54E7B /* Frameworks */,
+				24AF3E6F9F42374B85228D6EB8F817CA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "WYAScorllKit-WYAScorllKit";
-			productName = "WYAScorllKit-WYAScorllKit";
-			productReference = 467347AE9F18116CD753D77A20326F22 /* WYAScorllKit.bundle */;
+			name = "WYAImageScroll-WYAImageScroll";
+			productName = "WYAImageScroll-WYAImageScroll";
+			productReference = 857E92A8E6A701B4241DB54DC74319FE /* WYAImageScroll.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		F661AD78DB32373601FEAB6BD442B2CB /* Pods-WYAImageScroll_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF211D5F3AA6D7695DD63A82AD6DC6D /* Build configuration list for PBXNativeTarget "Pods-WYAImageScroll_Tests" */;
+			buildPhases = (
+				6BD45C6F3AB89066E6C4598F94E253F5 /* Sources */,
+				48B73592BB6FB5A910FF60DBE3DA0A02 /* Frameworks */,
+				FEFBF074732F907D7592C3C0DB1E9BB0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3695085985AF37971ADA5B7E2AAF3B15 /* PBXTargetDependency */,
+			);
+			name = "Pods-WYAImageScroll_Tests";
+			productName = "Pods-WYAImageScroll_Tests";
+			productReference = 2FB0825F2AD8B6C70DE520F2953D8142 /* Pods_WYAImageScroll_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FAFE591F1C4D7344A83C09F5D5149712 /* WYAImageScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88BAB8FDC8A0EB289466227BD4BB9FC7 /* Build configuration list for PBXNativeTarget "WYAImageScroll" */;
+			buildPhases = (
+				F9F4247388C5F809F79B7C8679DF4B92 /* Sources */,
+				E6C63C5937359229CC0066A9172344AE /* Frameworks */,
+				5CF2D6154D50E91D631D2EFF4C75BBB8 /* Resources */,
+				BE4D41AD59AB11C07C01804FEE1AAEAC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B45427C672E7EDD97B7A5F3F1E7459A3 /* PBXTargetDependency */,
+			);
+			name = WYAImageScroll;
+			productName = WYAImageScroll;
+			productReference = 8A6BCA79EE215DDA804969FF48744C49 /* WYAImageScroll.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -385,224 +406,115 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A6E51D7CD8F484CAB3C567F9EB874EA6 /* Products */;
+			productRefGroup = E51D8C95BF6DBC622A367520F6850448 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0DD5E35D619BC4E41D200320624C8D20 /* Pods-WYAScorllKit_Example */,
-				099F432D2D93C95E78B590491D73D2A1 /* Pods-WYAScorllKit_Tests */,
-				6FBDE82DF7A3FE24D5A7420D792CCE0B /* WYAScorllKit */,
-				C3E6F3E2005D19E9AE19CC45DE04BE3B /* WYAScorllKit-WYAScorllKit */,
+				07B4A239BE6F796EE38B12E72B90998F /* Pods-WYAImageScroll_Example */,
+				F661AD78DB32373601FEAB6BD442B2CB /* Pods-WYAImageScroll_Tests */,
+				FAFE591F1C4D7344A83C09F5D5149712 /* WYAImageScroll */,
+				1DED603A5990821C43ACF377077F1D4E /* WYAImageScroll-WYAImageScroll */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1253400E829F5601BA43086BC2D71641 /* Resources */ = {
+		24AF3E6F9F42374B85228D6EB8F817CA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C76DE1693ED52C893DE83088CC31EE8B /* WYAScorllKit.bundle in Resources */,
+				CDF522E4CEB82B2FB04DAAF478FD4EC6 /* WYAImageScroll.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C64B523D1FE96287D35C7E81A58094BF /* Resources */ = {
+		5CF2D6154D50E91D631D2EFF4C75BBB8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60EFE5C9967050E8C7D2A8A496EB87AC /* WYAImageScroll.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3E52F69135DC26CBE1D498D1771B6BD1 /* Sources */ = {
+		6BD45C6F3AB89066E6C4598F94E253F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAFBD329D6F8493A1EE7BC811FF88BAF /* Pods-WYAScorllKit_Tests-dummy.m in Sources */,
+				3F630C28B3891C4DFAC1BCDE3532DCC1 /* Pods-WYAImageScroll_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77ADD1E059602B7A373A460ECBC1568F /* Sources */ = {
+		6FE53CD134030298110D4EB391C66536 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B68CD756E33B04F0C7F745A632BA9DA /* Sources */ = {
+		73099C8EE923782F7FF8F2BFCD5EEFAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D576C4A06E49FB20E38AC263601C37D /* HeadView.m in Sources */,
-				1BEB945E3A70DB3487F4F7C5190B3260 /* ImageBrowserCell.m in Sources */,
-				712EA298BB832FF8B9989406DDC9F5ED /* largerImageViewController.m in Sources */,
-				2979B67DB9354E244AB3AAAE7AD53109 /* WYAScorllKit-dummy.m in Sources */,
+				8649B36E1DD34299C3125648EC301F27 /* Pods-WYAImageScroll_Example-dummy.m in Sources */,
+				210CC7762199132C00308159 /* UIImage+BundleImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A33A088AD73DC17E9846BBA0EE87091A /* Sources */ = {
+		F9F4247388C5F809F79B7C8679DF4B92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0996107BB29FC51968D804DD4002789 /* Pods-WYAScorllKit_Example-dummy.m in Sources */,
+				ED043C73F48311C0633E62424BD535A8 /* HeadView.m in Sources */,
+				D1380A000E5855DCA7CB4C970636CD89 /* ImageBrowserCell.m in Sources */,
+				A42A5B9BFAE2B698DEAD44DCC07B8822 /* WYAImageScrollViewController.m in Sources */,
+				210CC7772199132C00308159 /* UIImage+BundleImage.m in Sources */,
+				8D9B9C4FD30E3022749C024FF0643599 /* WYAImageScroll-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1210913549CF2669402333D651D103CD /* PBXTargetDependency */ = {
+		3695085985AF37971ADA5B7E2AAF3B15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = WYAScorllKit;
-			target = 6FBDE82DF7A3FE24D5A7420D792CCE0B /* WYAScorllKit */;
-			targetProxy = 2CB8F1D00B72CE5A92CBB081D80A497E /* PBXContainerItemProxy */;
+			name = "Pods-WYAImageScroll_Example";
+			target = 07B4A239BE6F796EE38B12E72B90998F /* Pods-WYAImageScroll_Example */;
+			targetProxy = 88DE9FD199D93ABDA82031A3B5C87324 /* PBXContainerItemProxy */;
 		};
-		3F2276EB6FA15DFF2A250573449EFF7B /* PBXTargetDependency */ = {
+		A0C14A33A92DE545D466219135A9B83C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "WYAScorllKit-WYAScorllKit";
-			target = C3E6F3E2005D19E9AE19CC45DE04BE3B /* WYAScorllKit-WYAScorllKit */;
-			targetProxy = 8FE549CBE752F0EA68408E273D7BA4F6 /* PBXContainerItemProxy */;
+			name = WYAImageScroll;
+			target = FAFE591F1C4D7344A83C09F5D5149712 /* WYAImageScroll */;
+			targetProxy = 2E067B95DEA1D84D3B8CCAD312AAE350 /* PBXContainerItemProxy */;
 		};
-		7BA29536B7CBFF80730ADA31DE3B63C8 /* PBXTargetDependency */ = {
+		B45427C672E7EDD97B7A5F3F1E7459A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-WYAScorllKit_Example";
-			target = 0DD5E35D619BC4E41D200320624C8D20 /* Pods-WYAScorllKit_Example */;
-			targetProxy = 7D07F76E2AF21DC898631DB30E2B8CE0 /* PBXContainerItemProxy */;
+			name = "WYAImageScroll-WYAImageScroll";
+			target = 1DED603A5990821C43ACF377077F1D4E /* WYAImageScroll-WYAImageScroll */;
+			targetProxy = 5B731951F581B79EE6DAEDBF43419B76 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		018FD606D8BBE0B117C08336BD391516 /* Release */ = {
+		1A586CE05C1136813E675B56C08891FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A184BC5BA6A95EE5CEDC3C6ADB137EAF /* WYAScorllKit.xcconfig */;
+			baseConfigurationReference = DACA7E7BD4D9C1D8FEEB59317474B838 /* WYAImageScroll.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WYAScorllKit/WYAScorllKit-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WYAImageScroll";
+				INFOPLIST_FILE = "Target Support Files/WYAImageScroll/ResourceBundle-WYAImageScroll-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/WYAScorllKit/WYAScorllKit.modulemap";
-				PRODUCT_MODULE_NAME = WYAScorllKit;
-				PRODUCT_NAME = WYAScorllKit;
+				PRODUCT_NAME = WYAImageScroll;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		06E582642F9BD63B381853F28CDB03B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD0CE9C20C12A7BB1A43E0D628570BCD /* Pods-WYAScorllKit_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WYAScorllKit_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WYAScorllKit_Tests/Pods-WYAScorllKit_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		47E90167D8EDF3094B19EB993D41D1E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EB74F56E4C529509D232BE038AE1801 /* Pods-WYAScorllKit_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WYAScorllKit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WYAScorllKit_Example/Pods-WYAScorllKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4B63F526450F7261E615536011B9D465 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A184BC5BA6A95EE5CEDC3C6ADB137EAF /* WYAScorllKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WYAScorllKit/WYAScorllKit-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/WYAScorllKit/WYAScorllKit.modulemap";
-				PRODUCT_MODULE_NAME = WYAScorllKit;
-				PRODUCT_NAME = WYAScorllKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -655,7 +567,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -665,23 +577,184 @@
 			};
 			name = Debug;
 		};
-		9DC4389CA9E50500DC4ABDE55A72FE98 /* Release */ = {
+		3A3AFC44FF1314B23673514FB936FBC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A184BC5BA6A95EE5CEDC3C6ADB137EAF /* WYAScorllKit.xcconfig */;
+			baseConfigurationReference = C10C6FEB4DE6BDFB74D6B1E50A708B2E /* Pods-WYAImageScroll_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WYAImageScroll_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WYAImageScroll_Tests/Pods-WYAImageScroll_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53F76E2E2A6B45A4A7E8AC83830CCFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DACA7E7BD4D9C1D8FEEB59317474B838 /* WYAImageScroll.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WYAImageScroll/WYAImageScroll-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/WYAImageScroll/WYAImageScroll.modulemap";
+				PRODUCT_MODULE_NAME = WYAImageScroll;
+				PRODUCT_NAME = WYAImageScroll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E9E5BEC5196013F9DFDC86ACBD1BE23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DACA7E7BD4D9C1D8FEEB59317474B838 /* WYAImageScroll.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WYAImageScroll/WYAImageScroll-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/WYAImageScroll/WYAImageScroll.modulemap";
+				PRODUCT_MODULE_NAME = WYAImageScroll;
+				PRODUCT_NAME = WYAImageScroll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7B0753F9F361FB4B5C99D8A71D34D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEBFB9B742C68D1A8A651C7C6894BBF3 /* Pods-WYAImageScroll_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WYAImageScroll_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WYAImageScroll_Tests/Pods-WYAImageScroll_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C021650765FF0B4642C2E8C988954899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DACA7E7BD4D9C1D8FEEB59317474B838 /* WYAImageScroll.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WYAScorllKit";
-				INFOPLIST_FILE = "Target Support Files/WYAScorllKit/ResourceBundle-WYAScorllKit-Info.plist";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WYAImageScroll";
+				INFOPLIST_FILE = "Target Support Files/WYAImageScroll/ResourceBundle-WYAImageScroll-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = WYAScorllKit;
+				PRODUCT_NAME = WYAImageScroll;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		CF6F4320218B2F7221BD67A29F781E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 416E3D0948102706BB8F7B37FE1B381A /* Pods-WYAImageScroll_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WYAImageScroll_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WYAImageScroll_Example/Pods-WYAImageScroll_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -731,7 +804,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -739,75 +812,26 @@
 			};
 			name = Release;
 		};
-		CBB2CB51AB1A23BAE724DCF999AF1707 /* Debug */ = {
+		F754D5F20F90A823DD9B67A5B52D340F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A184BC5BA6A95EE5CEDC3C6ADB137EAF /* WYAScorllKit.xcconfig */;
+			baseConfigurationReference = C987A11AC314132D4F213192C74B5025 /* Pods-WYAImageScroll_Example.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WYAScorllKit";
-				INFOPLIST_FILE = "Target Support Files/WYAScorllKit/ResourceBundle-WYAScorllKit-Info.plist";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WYAImageScroll_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = WYAScorllKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		D0D345888B78D7CF1ACE17CB4751ADBD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D356E2E675BF267C74291B5E0052BD85 /* Pods-WYAScorllKit_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WYAScorllKit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WYAScorllKit_Example/Pods-WYAScorllKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EA67A0012446CB4073CED2F1096BF5FD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F319715C10C5777043699FE122678CF0 /* Pods-WYAScorllKit_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WYAScorllKit_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WYAScorllKit_Tests/Pods-WYAScorllKit_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-WYAImageScroll_Example/Pods-WYAImageScroll_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -825,47 +849,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1177E60D04C7B12904A9541FD119C2F7 /* Build configuration list for PBXNativeTarget "WYAImageScroll-WYAImageScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C021650765FF0B4642C2E8C988954899 /* Debug */,
+				1A586CE05C1136813E675B56C08891FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DFD14BD1182E8170D99D1C45257D5C5 /* Build configuration list for PBXNativeTarget "Pods-WYAScorllKit_Tests" */ = {
+		88BAB8FDC8A0EB289466227BD4BB9FC7 /* Build configuration list for PBXNativeTarget "WYAImageScroll" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06E582642F9BD63B381853F28CDB03B6 /* Debug */,
-				EA67A0012446CB4073CED2F1096BF5FD /* Release */,
+				53F76E2E2A6B45A4A7E8AC83830CCFFD /* Debug */,
+				8E9E5BEC5196013F9DFDC86ACBD1BE23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41F28057DB388C333D5F16A7CB9385AC /* Build configuration list for PBXNativeTarget "Pods-WYAScorllKit_Example" */ = {
+		8AF211D5F3AA6D7695DD63A82AD6DC6D /* Build configuration list for PBXNativeTarget "Pods-WYAImageScroll_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0D345888B78D7CF1ACE17CB4751ADBD /* Debug */,
-				47E90167D8EDF3094B19EB993D41D1E9 /* Release */,
+				3A3AFC44FF1314B23673514FB936FBC2 /* Debug */,
+				A7B0753F9F361FB4B5C99D8A71D34D29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B960A245FB3549B692FDA315D2230D4A /* Build configuration list for PBXNativeTarget "WYAScorllKit" */ = {
+		E415A55607E26F12D9D5FF5B91940AAF /* Build configuration list for PBXNativeTarget "Pods-WYAImageScroll_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B63F526450F7261E615536011B9D465 /* Debug */,
-				018FD606D8BBE0B117C08336BD391516 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D3DF54E01FD07715C04CBC7F74242A6D /* Build configuration list for PBXNativeTarget "WYAScorllKit-WYAScorllKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CBB2CB51AB1A23BAE724DCF999AF1707 /* Debug */,
-				9DC4389CA9E50500DC4ABDE55A72FE98 /* Release */,
+				CF6F4320218B2F7221BD67A29F781E5A /* Debug */,
+				F754D5F20F90A823DD9B67A5B52D340F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

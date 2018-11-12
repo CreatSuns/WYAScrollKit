@@ -1,6 +1,0 @@
-framework module WYAScorllKit {
-  umbrella header "WYAScorllKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

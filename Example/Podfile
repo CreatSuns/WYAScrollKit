@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'WYAScorllKit_Example' do
-  pod 'WYAScorllKit', :path => '../'
+target 'WYAImageScroll_Example' do
+  pod 'WYAImageScroll', :path => '../'
 
-  target 'WYAScorllKit_Tests' do
+  target 'WYAImageScroll_Tests' do
     inherit! :search_paths
 
     

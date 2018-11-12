@@ -4,22 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-WYAScorllKit_Example.xcscheme</key>
+		<key>Pods-WYAImageScroll_Example.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-WYAScorllKit_Tests.xcscheme</key>
+		<key>Pods-WYAImageScroll_Tests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>WYAScorllKit-WYAScorllKit.xcscheme</key>
+		<key>WYAImageScroll-WYAImageScroll.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>WYAScorllKit.xcscheme</key>
+		<key>WYAImageScroll.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

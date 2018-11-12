@@ -1,16 +1,16 @@
 PODS:
-  - WYAScorllKit (0.1.0)
+  - WYAImageScroll (0.1.0)
 
 DEPENDENCIES:
-  - WYAScorllKit (from `../`)
+  - WYAImageScroll (from `../`)
 
 EXTERNAL SOURCES:
-  WYAScorllKit:
+  WYAImageScroll:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WYAScorllKit: f6cf25ab8f512cbbe3f4b3ff6b8f4536798cd166
+  WYAImageScroll: f223457affba3d4237052d98faa532eeceeea5a1
 
-PODFILE CHECKSUM: df600006fe6d32b536ca371253c5c4aac373409e
+PODFILE CHECKSUM: 8e9cf06cdd6aaaa974ab64c78b451d2158d5b3f4
 
 COCOAPODS: 1.5.3
