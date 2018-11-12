@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WYAImageScroll'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WYAImageScroll.'
+  s.summary          = '图片浏览器 of WYAImageKit.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/1228506851@qq.com/WYAImageScroll'
+  s.homepage         = 'https://github.com/CreatSuns/WYAScrollKit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '1228506851@qq.com' => '1228506851@qq.com' }
-  s.source           = { :git => 'https://github.com/1228506851@qq.com/WYAImageScroll.git', :tag => s.version.to_s }
+  s.author           = { 'WYATeam' }
+  s.source           = { :git => 'https://github.com/CreatSuns/WYAScrollKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

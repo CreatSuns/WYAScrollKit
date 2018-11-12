@@ -9,22 +9,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../WYAImageScroll/Classes/HeadView.m"
-            timestampString = "563680640.070311"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "-initWithFrame:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "../WYAImageScroll/Classes/UIImage+sdsds.m"
             timestampString = "563680419.078602"
             startingColumnNumber = "9223372036854775807"
@@ -57,8 +41,8 @@
                   symbolName = "+[UIImage(BundleImage) loadBundleImage:ClassName:]"
                   moduleName = "WYAImageScroll_Example"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lishihang/Desktop/WYAImageScroll/WYAImageScroll/Classes/UIImage+BundleImage.m"
-                  timestampString = "563680640.234183"
+                  urlString = "file:///Users/lishihang/Desktop/GitProject/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93%E5%BC%80%E5%8F%91/WYAScrollKit/WYAImageScroll/Classes/UIImage+BundleImage.m"
+                  timestampString = "563681518.6230839"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -72,8 +56,8 @@
                   symbolName = "+[UIImage(BundleImage) loadBundleImage:ClassName:]"
                   moduleName = "WYAImageScroll_Example"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lishihang/Desktop/WYAImageScroll/WYAImageScroll/Classes/UIImage+BundleImage.m"
-                  timestampString = "563680640.237322"
+                  urlString = "file:///Users/lishihang/Desktop/GitProject/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93%E5%BC%80%E5%8F%91/WYAScrollKit/WYAImageScroll/Classes/UIImage+BundleImage.m"
+                  timestampString = "563681518.624741"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
